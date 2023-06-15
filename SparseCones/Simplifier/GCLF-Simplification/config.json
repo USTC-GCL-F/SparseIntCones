@@ -1,0 +1,23 @@
+{
+  "maxIter": 50,
+  "relaxErrorIterStep": 5,
+  "maxErrorRelaxIter": 6,
+  "initError": 0.005,
+  "errorStep": 0.005,
+  "paramRemesher": {
+    "collapseIter": 3,
+    "splitIter": 1,
+    "equalizeValenceIter": 1,
+    "smoothIter": 3,
+    "enlargeTargetLengthRatio": 1.1
+  },
+  "paramCollapse": {
+    "maxValence": 8
+  },
+  "paramRelocate": {
+    "smoothIter": 3
+  },
+  "paramFlip": {
+    "maxValence": 8
+  }
+}
